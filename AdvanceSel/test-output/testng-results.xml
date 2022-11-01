@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36" started-at="2022-11-01T16:37:45Z" finished-at="2022-11-01T16:37:45Z">
+    <groups>
+      <group name="login">
+        <method signature="DependancyAdv.dash()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="dash" class="dependancies.DependancyAdv"/>
+        <method signature="DependancyAdv.login()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="login" class="dependancies.DependancyAdv"/>
+      </group> <!-- login -->
+      <group name="users">
+        <method signature="DependancyAdv.users1()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="users1" class="dependancies.DependancyAdv"/>
+        <method signature="DependancyAdv.users2()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="users2" class="dependancies.DependancyAdv"/>
+      </group> <!-- users -->
+    </groups>
+    <test name="Default test" duration-ms="36" started-at="2022-11-01T16:37:45Z" finished-at="2022-11-01T16:37:45Z">
+      <class name="dependancies.DependancyAdv">
+        <test-method status="PASS" signature="dash()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="dash" duration-ms="7" started-at="2022-11-01T22:07:45Z" finished-at="2022-11-01T22:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dash -->
+        <test-method status="PASS" signature="login()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="login" duration-ms="3" started-at="2022-11-01T22:07:45Z" finished-at="2022-11-01T22:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="users1()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="users1" duration-ms="2" started-at="2022-11-01T22:07:45Z" finished-at="2022-11-01T22:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users1 -->
+        <test-method status="PASS" signature="users2()[pri:0, instance:dependancies.DependancyAdv@5d5eef3d]" name="users2" duration-ms="0" started-at="2022-11-01T22:07:45Z" finished-at="2022-11-01T22:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users2 -->
+      </class> <!-- dependancies.DependancyAdv -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
